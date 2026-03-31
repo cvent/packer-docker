@@ -1,4 +1,4 @@
-FROM hashicorp/packer:1.4.1
+FROM hashicorp/packer:1.15.0
 
 # Install inspec
 RUN apk --no-cache add --virtual build-dependencies ruby-dev build-base \
